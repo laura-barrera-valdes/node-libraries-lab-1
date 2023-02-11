@@ -9,4 +9,10 @@ console.log(num.basic.gcd(4,20688780));//4
 console.log(num.basic.gcd(5,9232));//1
 console.log(num.basic.gcd(0,9232));//9232
 
+//----------------------------------------------
 
+const NumAbbr = require('number-abbreviate');
+let numAbbr = new NumAbbr(['k']);
+
+console.log(numAbbr.abbreviate([2000], [0]));//2k
+console.log(numAbbr.abbreviate([8000], [0]));//8k

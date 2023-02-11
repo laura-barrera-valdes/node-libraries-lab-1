@@ -19,5 +19,8 @@
   "homepage": "https://github.com/laura-barrera-valdes/node-libraries-lab-1#readme",
   "devDependencies": {
     "numbers": "^0.7.0"
+  },
+  "dependencies": {
+    "number-abbreviate": "^2.0.0"
   }
 }
